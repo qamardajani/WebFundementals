@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+                /*$("#add-class").click(function(){
+                $('.add p').css("background-color", "red")
+                })*/
+
+                /*
+                $("#slide-toggle").click(function(){
+                $("#image").slideToggle("slow");
+                })*/
+                
+                /*$("#image").click(function(){
+                $("#image").hide();*/
+
+                /*$("h1").click(function(){
+                $("#image").toggle();*/
+
+                /*$("h1").click(function(){
+                $("#image").show();*/
+
+                /*$("#append").click(function(){
+                    $(".app p").append("hello world!");
+                })*/
+
+                /*$("hr").click(function(){
+                    $(".app").slideDown("slow");
+                })*/
+
+                /*$("#append").click(function(){
+                    $(".app").slideUp("slow");
+                })*/
+               
+
+                /*$("#append").click(function(){
+                    $(".app p").fadeOut("slow");
+                })
+                 $("hr").click(function(){
+                    $(".app p").fadeIn("slow");
+                })*/
+                /*$("#append").click(function(){
+                    $("hr").addClass("add-c");
+                })*/
+
+                /*$("#append").click(function(){
+                    $(".app p").before("<p>hello world! </p>");
+                })*/
+
+                /*$("#append").click(function(){
+                    $(".app p").html("hello world!");
+                })*/
+
+                /*$("#slide-toggle").click(function(){
+                $("#image").attr("border", "10px", "black");
+                })*/
+
+                /*$("#slide-toggle").click(function(){
+                $("input:text").val("Hello World");
+                })*/
+
+                $("#slide-toggle").click(function(){
+                $(".slide p").text("HI!");
+                })
+                
+        })
+            
+                
+    </script>
+</head>
+<body>
+    <div class="add">
+        <h1>AddClass</h1>
+        <div><button id="add-class">AddClass</button>
+        <p>click the button to add class'red' to this paragraph</p>
+        </div>
+        <hr>
+    </div>
+    <div class="slide">
+        <h1>Slidetoggle</h1>
+        <div><button id="slide-toggle">Slidetoggle</button>
+        <p>click the button to slide toogle a hidden image</p>
+        </div>
+        <img id="image" src="./10x-featured-social-media-image-size.png">
+        <input type="text">
+        <hr>
+    </div>
+    <div class="app">
+        <h1>Appened</h1>
+        <div><button id="append">Appened</button>
+        <p>click the button to appened a new paragraph</p>
+        </div>
+    </div>
+</body>
+</html>

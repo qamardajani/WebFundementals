@@ -1,0 +1,38 @@
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop
+$ mkdir test
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop
+$ cd test
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ touch index.html
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ touch style.css
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ cd ..
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop
+$ mkdir destination
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop
+$ cd test
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ mv index_2.html ../destination
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ rm style.css
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop/test
+$ cd ..
+
+5559@DESKTOP-ICA94O2 MINGW64 ~/Desktop
+$ rm -rf destination

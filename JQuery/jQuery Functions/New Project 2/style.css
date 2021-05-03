@@ -1,0 +1,41 @@
+body{
+    background-color: aqua ;
+}
+.add{
+    text-align: center;
+}
+.add div {
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    box-shadow: 2px 2px 2px black;
+}
+
+hr{
+    background-color: black;
+    height: 5px;
+    width: 95%;
+    
+}
+.slide{
+    text-align: center;
+}
+.slide div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.app{
+    text-align: center;
+}
+.app div {
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.add-c{
+    border-radius: 20px;
+}

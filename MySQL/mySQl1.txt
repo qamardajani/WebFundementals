@@ -1,0 +1,23 @@
+SELECT  countries.name,languages.language, languages.percentage
+FROM countries 
+ JOIN languages ON countries.code = languages.country_code
+WHERE language = 'Slovene';
+----------------------------------------------------
+select  countries. name , COUNT(  cities.name )from countries 
+join cities on cities.country_id = countries.id
+group by countries.name 
+order by count(cities.name) DESC
+-----------------------------------------------------
+select  cities.name ,cities.population, countries.id from countries
+join cities on cities.country_id=countries.id
+where cities.population > 500000 AND countries.name like "%Mexico"
+order by cities.population desc
+------------------------------------------------------
+select countries.name , languages.language, languages.percentage from countries
+join languages on countries.id  = languages.country_id
+where percentage > 89
+order by percentage desc
+------------------------------------------------------
+select countries.name , countries.surface_area,countries.population from countries
+where countries.surface_area < 501 AND countries.population > 100000
+----------------------------------------------
